@@ -9,6 +9,7 @@
   <button type="submit" name="button">Envoyer</button>
 </form> -->
 
+<% if false %>
 
 <%= form_tag("/users", method: "post") do %>
   <%= label_tag(:username, "Username:") %>
@@ -18,4 +19,17 @@
   <%= label_tag(:password, "Password:") %>
   <%= password_field_tag(:password) %>
   <%= submit_tag("Search") %>
+<% end %>
+
+<% end %>
+
+
+<%= form_for(@user) do |f| %>
+    <%= f.label :username, "Your username" %><br />
+    <%= f.text_field :username %><br>
+    <%= f.label :email, "Your Email" %><br />
+    <%= f.email_field :email, placeholder: "eg: david@oschool.ci" %><br>
+    <%= f.label :password %><br />
+    <%= f.password_field :password %><br>
+    <%= f.submit %>
 <% end %>
