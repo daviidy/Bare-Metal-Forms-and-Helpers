@@ -31,9 +31,9 @@
     <% end %>
     </ul>
     <%= f.label :username, "Your username" %><br />
-    <%= f.text_field :username, value: "dave" %><br>
+    <%= f.text_field :username, value: @user.username %><br>
     <%= f.label :email, "Your Email" %><br />
-    <%= f.email_field :email, placeholder: "eg: david@oschool.ci" %><br>
+    <%= f.email_field :email, placeholder: "eg: david@oschool.ci", value: @user.email %><br>
     <%= f.label :password %><br />
     <%= f.password_field :password %><br>
     <%= f.submit %>
