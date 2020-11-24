@@ -1,24 +1,46 @@
-# README
+# Bare-Metal-Forms-and-Helpers
+In this project we used multiple ways to build a form in rails that can send parameters to a controller so that it can build an instance of a model with those parameters.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Project screenshot
+<img alt="" src=""/>
 
-Things you may want to cover:
+## 🔨 Built in
 
-* Ruby version
+- Ruby on Rails 6.0.3
 
-* System dependencies
+## 🚀 Our Project
 
-* Configuration
+Our project can be found at https://github.com/daviidy/Bare-Metal-Forms-and-Helpers
 
-* Database creation
+## To run the project in local
 
-* Database initialization
+- clone the repository from here [repo link](https://github.com/daviidy/Bare-Metal-Forms-and-Helpers)
+- Open terminal and navigate to root folder (/Bare-Metal-Forms-and-Helpers).
+- Once in root folder
+  - type: `rails s` in terminal and in browser
+  - run `bundle install`, `rails db:create`, and `rails db:migrate`
+  - type localhost:3000/ in address bar.
 
-* How to run the test suite
+## 👨🏽‍💻 👨🏿‍💻 Creators
 
-* Services (job queues, cache servers, search engines, etc.)
+👤 **Author1**
 
-* Deployment instructions
+- Github: [@lucianosarno](https://github.com/lucianosarno)
 
-* ...
+👤 **Author2**
+
+- Github: [@daviidy](https://github.com/daviidy)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/daviidy/Micro-Reddit/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is no licensed.
