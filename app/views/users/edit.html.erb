@@ -9,7 +9,8 @@
   <button type="submit" name="button">Envoyer</button>
 </form> -->
 
-<% if false %>
+<%
+=begin %>
 
 <%= form_tag("/users", method: "post") do %>
   <%= label_tag(:username, "Username:") %>
@@ -21,8 +22,9 @@
   <%= submit_tag("Search") %>
 <% end %>
 
-<% end %>
-
+<%
+=end
+%>
 
 <%= form_for(@user) do |f| %>
     <ul>
