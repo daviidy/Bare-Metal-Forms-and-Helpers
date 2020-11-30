@@ -27,18 +27,8 @@
 =end
 %>
 
-
-<%= form_for(@user) do |f| %>
-    <ul>
-    <% @user.errors.full_messages.each do |error| %>
-      <li><%= error %></li>
-    <% end %>
-    </ul>
-    <%= f.label :username, "Your username" %><br />
-    <%= f.text_field :username, value: "dave" %><br>
-    <%= f.label :email, "Your Email" %><br />
-    <%= f.email_field :email, placeholder: "eg: david@oschool.ci" %><br>
-    <%= f.label :password %><br />
-    <%= f.password_field :password %><br>
-    <%= f.submit %>
-<% end %>
+<div class="container-fluid h-100">
+  <div class="row h-100">
+    <%= render partial: 'form' %>
+  </div>
+</div>

@@ -6,10 +6,20 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag "https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
+    <% if flash[:notice] %>
+      <div class="row">
+        <div class="col-12">
+          <div class="alert alert-success mr-auto ml-auto w-50 mt-3">
+            <strong><%= notice %></strong>
+          </div>
+        </div>
+      </div>
+    <% end %>
     <%= yield %>
   </body>
 </html>
