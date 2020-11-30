@@ -12,6 +12,10 @@ In this project we used multiple ways to build a form in rails that can send par
 
 Our project can be found at https://github.com/daviidy/Bare-Metal-Forms-and-Helpers
 
+## Live Demo
+
+You can find the demo [here](https://protected-castle-42557.herokuapp.com/)
+
 ## To run the project in local
 
 - clone the repository from here [repo link](https://github.com/daviidy/Bare-Metal-Forms-and-Helpers)
