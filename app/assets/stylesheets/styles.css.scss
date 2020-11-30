@@ -1,0 +1,60 @@
+/*
+    CSS Reset
+*/
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+input,
+button,
+ul,
+li,
+a,
+p {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  color: inherit;
+  background: transparent;
+  list-style: none;
+}
+
+/* Global Setting*/
+body {
+  background: radial-gradient(#40404b, #111118) rgba(34,34,40,0.94);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  font-family: 'Montserrat', sans-serif; 
+  overflow-x: hidden;
+}
+
+.welcome {
+  background: rgba(241,241,241,0.8);
+}
+
+.blue-oschool {
+  color: #4D90CC;
+}
+
+.bg-oschool {
+  background-color: #4D90CC;
+}
+
+form img {
+  margin: -16px auto 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.4);
+}
